@@ -1,0 +1,25 @@
+
+@media (max-width: 480px) {
+    
+    h1 {
+        font-size: 2.5rem !important;
+        margin-top: 2rem;
+    }
+
+   
+    nav {
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: nowrap !important;
+        gap: 5px; /* Tiny gap to prevent touching */
+    }
+
+   
+    nav div.flex.space-x-4 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+{
+    transition: all 0.2s ease-in-out;
+}
